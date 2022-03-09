@@ -5,11 +5,13 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { NavigationContainer } from '@react-navigation/native';
 import RootStackNav from './navigation/RootStackNav';
+import RootDrawerNav from './navigation/RootDrawerNav';
 export default function App() {
   return (
     <NavigationContainer>
       <StatusBar backgroundColor="#FEF5ED"/>
-      <RootStackNav/>
+      <RootDrawerNav/>
+      {/* <RootStackNav/> */}
     </NavigationContainer>
   );
 }
